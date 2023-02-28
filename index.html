@@ -1,12 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Google</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <!-- Font icon -->
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+    <!-- Barra de navegação -->
+    <header>
+        <nav id="navbar">
+            <ul class="nav-list" id="social-bar">
+                <li><a href="#">Gmail</a></li>
+                <li><a href="#">Imagens</a></li>
+                <li><a href="#">
+                        <span class="lnr lnr-list"></span></a>
+                </li>
+                <li><a href="#">Fazer login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Barra de pesquisa -->
+    <main id="body">
+        <img src="img/google_logo.png" id="google-logo" alt="Google Logo">
+        <form action="">
+            <div id="input-box">
+                <input type="text" id="search-input" name="search">
+                <span class="lnr lnr-magnifier" id="search-icon"></span>
+                <span class="lnr lnr-keyboard" id="keyboard-icon"></span>
+                <span class="lnr lnr-mic" id="mic-icon"></span>
+            </div>
+            <!-- Botões de submeter e estou com sorte -->
+            <div>
+                <input type="submit" name="btn-search" value="Pesquisa Google">
+                <input type="submit" name="btn-luck" value="Estou com sorte">
+            </div>
+        </form>
+    </main>
 </body>
+
 </html>
